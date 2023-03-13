@@ -133,9 +133,9 @@ auto add(T a, U b) -> decltype(a + b);
 ```
 
 ***
-<br><br>
 
-# Up Next
+## Up Next
+- [Templates - Generalizing C++ Code](https://gnegd.net/drafts/cpp/templates)
 
 ***
 
