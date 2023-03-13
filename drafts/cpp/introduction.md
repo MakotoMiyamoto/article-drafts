@@ -17,9 +17,7 @@ If any of these sound like your situation, or if you're simply a student studyin
 Of course, this takes no credence from the courses themselves. Computer science courses are not designed to be software development courses. Rather, they are tailored towards teaching computer science as a *science*, teaching you the fundamentals of computer science, as well as the various subjects that are derived from it.
 
 ## Introduction - For Engineers/Engineering Students
-There is little doubt that engineers and engineering students alike are not known for clean code. After all, programming is not on their payroll, though programming often becomes a consequential part of the job. Indeed, engineers that have to write code are only doing so to get that *one thing* working, and pay no mind to the scalability nor the readability of production code.
-
-If this applies to you, or if you're hoping to avoid meeting this fate, then these articles are for you! The hope is that engineers can learn as much as possible about applied computer science and programming with the goal of writing clean -- and correct -- code.
+W.I.P.
 
 *Note: At some point or another, we may cover topics on embedded systems programming, but this is TBD.*
 
