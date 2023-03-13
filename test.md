@@ -8,6 +8,10 @@
 
 A trailing return type describes a function's return type appended to the end of the function's [prototype](https://gnegd.net/drafts/prototypes.md), as opposed to the beginning.
 
+***
+
+## Syntax
+
 Take a simple function `add(int, int)` for instance:
 ```cpp
 // C++
@@ -19,7 +23,6 @@ int add(int, int);
 In this prototype, the function `add(int, int)` is prefixed with its return type, which, of course, discerns the data type of the value the function is expected to return. However, in other languages, the return type of a function may be inferred, and in some cases, the return type is denoted at the end of the function. `_(I will do more research on this topic so what im saying makes more sense... lol)_`
 
 <br>
-
 
 For instance, the same function in JavaScript may look like:
 ```js
@@ -37,12 +40,10 @@ fn add(a: i32, b: i32) -> i32 {
 }
 ```
 
-<br>
-
 Knowing and understanding these two languages is not necessary. What's important is to observe the ways in which each language structures function prototypes. In JavaScript, the types are inferred (not to mention that JavaScript is [loosely-typed](https://gnegd.net/draft/paradigms.md)), and in Rust, the type is appended at the end of the prototype rather than the beginning.
 
-<!-- 
-In C++, we can achieve mostly what Rust does using *trailing return types.* An example using `add(int, int)` may look like: -->
+<br>
+
 In C++, we can **sort of** achieve this with the `auto` keyword:
 ```cpp
 // C++
@@ -66,6 +67,8 @@ However, we can amend this bug by appending a ***trailing return type***:
 auto add(int a, int b) -> int;
 ```
 Using the `auto` keyword, the compiler can deduce the return type of `add(int, int)` based on its **trailing** type, even without including the definition for the function.
+
+<br>
 
 Semantically-speaking, this has no structural difference from prepended return types. You can do `int add(int, int);` or `auto add(int, int) -> int;` and observe no changes in the control flow of the function. For instance, you can do this to `main()` as well:
 ```cpp
@@ -128,6 +131,11 @@ If we want to specify the return type in the prototype of the function rather th
 template <class T, class U>
 auto add(T a, U b) -> decltype(a + b);
 ```
+
+***
+<br><br>
+
+# Up Next
 
 ***
 
