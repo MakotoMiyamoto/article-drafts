@@ -11,7 +11,7 @@ If you are not a student, this is nonetheless a good article on learning how to 
 > *Note: Leveraging the tooling offered by IDEs is still a crucial part of the development process, however, using them is not in the scope of this article.*
 
 ## Getting Started
-Some languages have a single compiler, which builds software for various distrubtions of their respective programming language as well as the various operating systems that programming language is meant for.
+Some languages have a single compiler, which builds software for various distributions of their respective programming language as well as the various operating systems that programming language is meant for.
 
 C++, however, does not have a single compiler. Rather, various compilers have been written over the course of a couple decades (ever since the proposition of the first C++ standard in 1998), which all revolve around adhereing to the C++ ISO/IEC 14882:1998 and revisions thereafter.
 
