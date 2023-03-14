@@ -65,24 +65,24 @@ Then, open your terminal, and navigate to the directory where the file is locate
 
 #### Windows
 ```cmd
-C:\Users\me\repos\first-program>clang++ -o out.exe main.cpp
+> clang++ -o out.exe main.cpp
 ```
 
 #### MacOS/Linux
 ```sh
-me@domain:~/repos/first-program$ clang++ -o out main.cpp
+$ clang++ -o out main.cpp
 ```
 
 If the compiler built the binary file successfully, there should be no feedback. Once the command has completed, run the program:
 
 #### Windows
 ```cmd
-C:\Users\me\repos\first-program>.\out.exe
+> .\out.exe
 ```
 
 #### MacOS/Linux
 ```sh
-me@domain:~/repos/first-program$ ./out
+$ ./out
 ```
 
 The output should be something like:
