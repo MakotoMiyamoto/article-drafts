@@ -25,3 +25,12 @@ W.I.P.
 Welcome! These articles have been written with students in mind, however they are meant no less for people that are either self-taught, or simply like to broaden their horizons on their own time. Having come this far on your own, I suspect you to be the harshest critic of these articles. Edits, corrections, and suggestions, of course, are welcome.
 
 *Note: Comment section functionality TBD.*
+
+## What You'll Need
+A turing complete machine (ideally one that can compile standard-compliant C++ code) with a connection to the internet.
+
+## Up Next
+* [Compiling C++ Programs](https://gnegd.net/articles/cpp/compiling-code)
+
+***
+(c) Gnegd or whatever
