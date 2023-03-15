@@ -12,7 +12,7 @@
 > *There are no prerequisites for this article, however you should read the [introduction](https://gnegd.net/articles/cpp/introduction) and [Compiling C++ Programs](https://gnegd.net/articles/cpp/compiling-code) if you haven't already.*
 
 ## Abstract
-If you've taken any course that teaches and/or uses C++, you may be familiar with `using namespace std;`. Although you may have never been told what this does -- or its functionality has simply been forgotten -- you will observe that none of your assignments compile without this line of code (assuming you are one of the many students that used it). Unfortunately, this is a very bad design pattern for various reasons, as you will learn reading this article.
+If you've taken any course that teaches and/or uses C++, you may be familiar with `using namespace std;`. Although you may never have been told what this does -- or its functionality has simply been forgotten -- you will observe that none of your assignments compile without this line of code (assuming you are one of the many students that used it). Unfortunately, this is a very bad design pattern for various reasons, as you will learn reading this article.
 
 If you are not a current (nor former) student, you should nonetheless read this article to avoid making the mistakes of the many.
 
