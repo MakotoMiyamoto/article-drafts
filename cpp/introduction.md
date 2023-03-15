@@ -5,9 +5,9 @@
 > My go-to for getting into C++ is https://learncpp.com.
 
 ## Abstract
-This catalogue is focused towards college students currently learning computer science, engineering students that learn programming as part of their career, and hobbyist programmers that wish to explore the subject in their free time.
+This catalogue is focused towards college students currently learning computer science, engineering students that are learning programming as part of their career, and hobbyist programmers that wish to explore the subject in their free time.
 
-The purpose of these articles is to present intermediate and advanced concepts and information from https://cppreference.com and https://wikipedia.org in a manner more digestible for inexperienced users, allowing readers to develop greater understandings of advanced subjects without having to read overwhelming information. Of course, citations and references to the aforementioned sites will be made, as they are much greater sources of information than Gnegd.
+The purpose of these articles is to present intermediate and advanced concepts and information from https://cppreference.com and https://wikipedia.org in a manner more digestible for inexperienced users, allowing readers to develop greater understandings of advanced subjects without having to absorb sometimes overwhelming information. Of course, citations and references to the aforementioned sites will be made, as they are much greater sources of information than Gnegd.
 
 ## Introduction - For Computer Science Students
 So, you just finished your first course or two in computer science. Maybe you finally finished that one project using circular doubly linked-lists, or hash trees, or whatever else. Or maybe you're still in the middle of the semester, or the middle of that one project, and want to expand your current knowledge. Perhaps you're totally lost on that one assignment and have been scouring through the internet for answers -- if this last one applies to you, *good on you* for Googling, it is your most powerful tool as a developer.
