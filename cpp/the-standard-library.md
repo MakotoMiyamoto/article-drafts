@@ -61,7 +61,7 @@ void fizz_buzz(int lower_bound, int upper_bound);
 
 To even an inexperienced programmer, it makes intuitive sense that the first function belongs to library A, and the second one to library B, because the programmer reasons, based on both the function prototype of each function, as well as the conspicuous comments above each declaration, that both functions are different.
 
-However, before a program in C++ is compiled into object code, the *preprocessor* first checks the file for naming conflicts `[citation needed]`. When a C++ compiler scans each prototype declared in a file, it does not care naming of functions' parameters, as function resolution is done only through the name of the function and the types of its parameters. Because of this, the compiler merely sees:
+However, before a program in C++ is compiled into object code, the *preprocessor* first checks the file for naming conflicts `[citation needed]`. When a C++ compiler scans each prototype declared in a file, it ignores the names of functions' parameters, as function resolution is done only through the name of the function and the types of its parameters. Because of this, the compiler merely sees:
 
 ```cpp
 void fizz_buzz(int, int);
