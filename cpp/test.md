@@ -1,4 +1,5 @@
 # Trailing Return Types
+## Ignore this article. It was written for a specification proposal.
 
 ## Prerequisites
 > [Type declaration](https://gnegd.net/drafts/cpp/declarations.md)<br>
@@ -6,9 +7,7 @@
 
 ## Abstract
 
-A trailing return type describes a function's return type appended to the end of the function's [prototype](https://gnegd.net/drafts/prototypes.md), as opposed to the beginning.
-
-***
+A trailing return type describes a function's return type appended to the end of the function's [prototype](./prototypes.md), as opposed to the beginning.
 
 ## Syntax
 
@@ -21,8 +20,6 @@ int add(int, int);
 ```
 
 In this prototype, the function `add(int, int)` is prefixed with its return type, which, of course, discerns the data type of the value the function is expected to return. However, in other languages, the return type of a function may be inferred, and in some cases, the return type is denoted at the end of the function. *`(I will do more research on this topic so what im saying makes more sense... lol)`*
-
-<br>
 
 For instance, the same function in JavaScript may look like:
 ```js
@@ -41,8 +38,6 @@ fn add(a: i32, b: i32) -> i32 {
 ```
 
 Knowing and understanding these two languages is not necessary. What's important is to observe the ways in which each language structures function prototypes. In JavaScript, the types are inferred (not to mention that JavaScript is [loosely-typed](https://gnegd.net/draft/paradigms.md)), and in Rust, the type is appended at the end of the prototype rather than the beginning.
-
-<br>
 
 In C++, we can **sort of** achieve this with the `auto` keyword:
 ```cpp
@@ -68,8 +63,6 @@ auto add(int a, int b) -> int;
 ```
 Using the `auto` keyword, the compiler can deduce the return type of `add(int, int)` based on its **trailing** type, even without including the definition for the function.
 
-<br>
-
 Semantically-speaking, this has no structural difference from prepended return types. You can do `int add(int, int);` or `auto add(int, int) -> int;` and observe no changes in the control flow of the function. For instance, you can do this to `main()` as well:
 ```cpp
 // C++
@@ -79,8 +72,6 @@ auto main() -> int {
 }
 ```
 *Note: While `main()` is specified to return `0` implicitly, the explicit trailing return type is still necessary. `auto main() {}` will not compile without an explicit `return 0`.*
-
-***
 
 ## Bonus Section
 I recommend you read up on [templates](https://gnegd.net/drafts/cpp/templates) before reading this section. You have been forewarned!

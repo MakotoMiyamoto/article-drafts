@@ -9,7 +9,7 @@
     - [`using namespace std;`](#using-namepace-std)
 
 ## Prerequisites
-> *There are no prerequisites for this article, however you should read the [introduction](https://gnegd.net/articles/cpp/introduction) and [Compiling C++ Programs](https://gnegd.net/articles/cpp/compiling-code) if you haven't already.*
+> *There are no prerequisites for this article, however you should read the [introduction](./introduction.md) and [Compiling C++ Programs](./compiling-code.md) if you haven't already.*
 
 ## Abstract
 If you've taken any course that teaches and/or uses C++, you may be familiar with `using namespace std;`. Although you may never have been told what this does -- or its functionality has simply been forgotten -- you will observe that none of your assignments compile without this line of code (assuming you are one of the many students that used it). Unfortunately, this is a very bad design pattern for various reasons, as you will learn reading this article.
@@ -170,7 +170,7 @@ int main() {
 }
 ```
 
-Depending on the way this article is rendered on your browser, you are either required to scroll horizontally to see the rest of the code, or the text has wrapped around on itself. It is self-evident that nobody wants to read this, let alone write it. So, we can mitigate the tediousness with using-directives:
+Depending on the way this article is rendered on your browser, you are either required to scroll horizontally to see the rest of the code, or the text has wrapped around on itself (or it's just really long). It is self-evident that nobody wants to read this, let alone write it. So, we can mitigate the tediousness with using-directives:
 
 ```cpp
 #include <iostream>
@@ -192,4 +192,3 @@ A little lengthy, but preferrable to the alternative.
 > *Nothing yet.*
 
 ***
-(c) Gnegd or whatever

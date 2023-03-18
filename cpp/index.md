@@ -1,4 +1,4 @@
 # C++ - Articles
-### - [Introduction](https://gnegd.net/articles/cpp/introduction/)
-### - [Compiling C++ Programs](https://gnegd.net/articles/cpp/compiling-code/)
-### - [The Standard Library - Stop `using namespace std`!](https://gnegd.net/articles/cpp/the-standard-library)
+### - [Introduction](./introduction.md)
+### - [Compiling C++ Programs](./compiling-code.md)
+### - [The Standard Library - Stop `using namespace std`!](./the-standard-library.md)

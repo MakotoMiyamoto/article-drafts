@@ -1,7 +1,7 @@
 # Compiling C++ Programs
 
 ## Prerequisites
-> *There are no prerequisites for this article, however you should read the [introduction](https://gnegd.net/articles/cpp/introduction) if you haven't already.*
+> *There are no prerequisites for this article, however you should read the [introduction](./introduction.md) if you haven't already.*
 
 ## Abstract
 If you are learning C++ in a college course, you may use Visual Studio (or another IDE) to write, test, and build your programs. You may observe that using Integrated Development Environment (IDE) software makes it as easy as clicking a green play button in order to run your code. While this makes it easy to test your programs, it does not reflect how C++ programs are actually built. Students often struggle with building software outside of the IDE they have been taught with, which becomes problematic when they desire to build software outside of their comfort zone.
@@ -91,9 +91,8 @@ Hello, world!
 ```
 
 ## Up Next
-* [Clang Compiler Usage](https://gnegd.net/articles/cpp/clang-usage)
-* [Setting up Visual Studio Code for C++](https://gnegd.net/articles/cpp/vscode)
-* [Stop `using namespace std`!](https://gnegd.net/articles/cpp/the-standard-library)
+* [Clang Compiler Usage](./clang-usage.md)
+* [Setting up Visual Studio Code for C++](./vscode.md)
+* [Stop `using namespace std`!](./the-standard-library.md)
 
 ***
-(c) Gnegd or whatever

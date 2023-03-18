@@ -30,7 +30,6 @@ Welcome! These articles have been written with students in mind, however they ar
 A turing complete machine (ideally one that can compile standard-compliant C++ code) with a connection to the internet.
 
 ## Up Next
-* [Compiling C++ Programs](https://gnegd.net/articles/cpp/compiling-code)
+* [Compiling C++ Programs](./compiling-code.md)
 
 ***
-(c) Gnegd or whatever
