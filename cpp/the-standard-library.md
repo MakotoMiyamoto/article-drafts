@@ -187,6 +187,22 @@ int main() {
 
 A little lengthy, but preferrable to the alternative.
 
+As a good practice, you should isolate utility code into its own function:
+
+```cpp
+#include <iostream>
+#include <chrono>
+
+std::chrono::milliseconds::rep current_time_ms() {
+    using namespace std::chrono;
+    return duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
+}
+
+int main() {
+    std::cout << "Time since Jan 1, 1970: " << current_time_ms() << "ms\n";
+}
+```
+
 ## Up Next
 
 > *Nothing yet.*
